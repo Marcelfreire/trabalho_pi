@@ -1,9 +1,16 @@
 #include <stdio.h>
 
 int main(){
-	//Testing
-	printf("\n");
-	printf("Another test\n");
-	return 0;
 
+	char ch;
+	FILE* teste = fopen("teste2.txt", "w");
+
+	printf("Testing");
+	//ch = fgetc(teste);
+	//printf("%c", ch);
+	
+	fprintf("%c", ch);
+	
+	fclose(teste);
+	return 0;
 }
