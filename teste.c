@@ -6,6 +6,7 @@ int main(){
 	FILE* teste = fopen("teste2.txt", "w");
 
 	printf("Testing");
+	printf("Another");
 	//ch = fgetc(teste);
 	//printf("%c", ch);
 	
